@@ -16,8 +16,8 @@ source venv/bin/activate  # Для Linux/Mac
 python manage.py migrate`
 8. Запускаем локальный сервер `python manage.py runserver`
 10. По адресу `http://localhost:8000/api/movies` будет доступен список записей о фильмах
-### Фронтенд (Vue3 Composition, Ts)
+### Фронтенд (Vite ,Vue3 Composition, Ts)
 1. Открываем новый терминал и переходим в папку `cd movie_frontend`
 2. Устанавливаем зависимости командой `npm install`
 3. Запускаем сервер: `npm run dev`
-4. Фронтенд будет доступен по адресу `http://localhost:5173/`
+4. Фронтенд будет доступен по адресу `http://localhost:5174/`
