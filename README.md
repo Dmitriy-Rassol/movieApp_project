@@ -9,7 +9,7 @@
 3. Устанавливаем виртуальное окружение `python -m venv venv`
 4. Запускаем виртуальное окружение `
 source venv/bin/activate  # Для Linux/Mac
-venv\Scripts\activate  # Для Windows`
+./venv/Scripts/activate  # Для Windows`
 5. Обновляем pip `python -m pip install --upgrade pip`
 6. Устанавливаем в виртуальном окружении зависимости для проекта `pip install -r requirements.txt`
 7. Делаем миграции для создания базы данных `python manage.py makemigrations 
