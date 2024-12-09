@@ -69,12 +69,11 @@ onMounted(() => {
   movieStore.fetchMovies();
 });
 
-// Функция для вычисления продолжительности
 const duration = (total: number) => {
   const totalMinutes = total;
   const hours = Math.floor(totalMinutes / 60);
   const minutes = totalMinutes % 60;
-  return `${hours} ч ${minutes} мин`; // Возвращаем строку
+  return `${hours} ч ${minutes} мин`; 
 };
 
 const openConfirmDelete = (id: number, title: string) => {
